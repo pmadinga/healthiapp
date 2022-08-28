@@ -1,0 +1,10 @@
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.banner_headline{
+  height: 300px;
+  line-height: 300px;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
