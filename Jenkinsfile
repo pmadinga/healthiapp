@@ -8,8 +8,22 @@ pipeline {
       
       steps{
         
-        echo "winning"
+        echo "building"
         
+      }
+    }
+    stage("test"){
+      
+      steps{
+        
+        echo "testing"
+      }
+    }
+    stage("deploy"){
+      
+      steps{
+      
+        echo "deploying"
       }
     }
   }
