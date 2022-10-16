@@ -8,7 +8,7 @@ pipeline {
       
       steps{
         
-        eco "building"
+        echo "building"
         
       }
     }
